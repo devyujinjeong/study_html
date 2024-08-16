@@ -13,9 +13,8 @@
 - 코드 상에 한 줄로 이어 써도 화면 상에서는 앞 뒤 요소 사이에 새로운 줄을 만들어서 나타난다.
   1) 코드
   ```<p>apple</p><p>banana</p>```
-<br></br>
   2) 화면
-	  <p>apple</span><p>banana</p>
+		<p>apple</span><p>banana</p>
 
 - 영역이 정확히 구분되어 있기 때문에, width, height 속성을 수정할 수 있다.
 - margin-top, margin-bottom 속성도 잘 적용된다.
@@ -28,11 +27,10 @@
 - span, a, img, strong, em, ... 등
 - 새로운 줄을 만들지 않고 작성한 단락 내에 나타난다.
 - 안에 있는 내용만큼만 영역을 차지한다.
-    1) 코드
+  1) 코드
   ```<strong>apple</strong><em>banana</em>```
-<br></br>
   2) 화면
-	  <strong>apple</strong><em>banana</em>
+<strong>apple</strong><em>banana</em>
 - 영역이 불분명하기 때문에 width와 height를 임의로 부여할 수 없다(img 태그 제외)
 - margin-top, margin-bottom 속성도 적용되지 않는다.
 - padding-top, padding-bottom 속성도 적용되지 않는다.
